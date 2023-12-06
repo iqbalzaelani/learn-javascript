@@ -1,3 +1,5 @@
+//Engga dipake
+
 document.getElementById("wrap").innerHTML = iqbal;
 
 
