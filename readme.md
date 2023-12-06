@@ -14,7 +14,7 @@ Fungsi pada javascript✔️
 Parameter pada fungsi✔️
 Parameter lebih dari satu✔️
 Return pada fungsi✔️
-Scope variabel
+Scope variabel✔️
 Mengenal array
 Metode Array
 Metode Array Bagian 2 (Harus bisa sampe sini)
