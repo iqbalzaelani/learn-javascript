@@ -15,9 +15,9 @@ Parameter pada fungsi✔️
 Parameter lebih dari satu✔️
 Return pada fungsi✔️
 Scope variabel✔️
-Mengenal array
+Mengenal array✔️
 Metode Array
-Metode Array Bagian 2 (Harus bisa sampe sini)
+Metode Array Bagian 2
 Tipe data boolean
 If dan else
 Operator logika
