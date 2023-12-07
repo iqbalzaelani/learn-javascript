@@ -252,9 +252,53 @@
     //     alert("Tidak ada nama iqbal");
     // }
 
-    //For loop untuk pengulangan
-    //berulang ulang dengan bantuan for loop
-    
+    // For loop untuk pengulangan
+    // berulang ulang dengan bantuan for loop
+    // pengulangan
+    // for loop di dalam for(mulai; sampai/syarat; perpindahan)
+    // ++ itu tambah 1 bisa juga kayak i = i + 2
+    // for (var i=0; i<5; i++){
+    //     alert(i);//nah nanti dia akan muncul alret sampah angka lebih dari 5
+    //             //karena saya menulis syarat atau sampai itu sampai 5
+    // }
+
+    //while loop
+    //mirip dengan foor loop
+    //while(syarat){
+        //apa yang mau di lakukan
+    //}
+    // var i = 0;
+    // while(i < 5){
+    //     alert(i);
+    //     i++; //artinya i akan bertambah satu sampai dengan 5 tidak akan ada lagi perubahan/masuk
+    // }
+    // var i = 0;
+    // var text = "";
+    // while( i < 5){
+    //     text += "<br>Angkanya adalah" + i;
+    //     i++;
+    // }
+    // document.getElementById('wrap').innerHTML = text;
+    //jadi selama i nya lebih kecil dari 5 akan berhasil lalu dia akan break lalu dia akan print angkanya
+    //adalah +i nah i nya adalah 0 setelah di eksekusi dia masuk ke i++ jadi i nya i
+    //karena 1 masih memenuhi syarat karenya syaratnya lebih kecil dari 5 makan dia masuk lagi
+    //dia tidak akan menghapus teks sebelumnya tetapi menambahkan teks sampai 5 (4) karenya lima tidak lebih kecil
+
+    //Do while pasangan while loop
+    //disini saya akan mengeksekusi kode minimal satu kali sebelum menguji syarat
+    //bedanya dengan while while menguji syaratnya dulu ketika memenuhi baru eksekusi
+    //kalo do while otomatis eksekusi kode di dalamnya minimal 1 kali setelah itu baru dia eksekusi apabila memenuhi syarat dia lanjut kalo engga dia berenti
+    var i = 6;
+    var text = "";
+
+    do{
+        text += "<br>angkanya adalah " + i ;
+        i++;
+    }
+    while( i < 5 );
+
+    document.getElementById('wrap').innerHTML = text;
+
 </script>
 </body> 
 </html>

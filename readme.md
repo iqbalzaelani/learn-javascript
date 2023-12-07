@@ -26,6 +26,6 @@ True dan false✔️
 Else if pada javascript✔️
 Syarat bercabang✔️
 Switch case✔️
-For loop untuk pengulangan
-While loop
-Do while pasangan while loop
+For loop untuk pengulangan✔️
+While loop✔️
+Do while pasangan while loop✔️

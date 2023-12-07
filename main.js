@@ -132,3 +132,32 @@ let nama = "Mohamadbalbal";
     default:
         alert("Tidak ada nama Jamal");
     }
+    
+    for (var i=0; i<5; i++){
+        alert(i);
+    }
+
+    var b = 0;
+    while (b < 5){
+        alert(b);
+        b++;
+    }
+
+    var g = 0;
+    var texts = "";
+    while (g < 5){
+        texts += "<br>Angkanya adalah" + b;
+        b++;
+    }
+    document.getElementById("wrap").innerHTML = texts;
+
+    var f = 6;
+    var textss = "";
+
+    do{
+        textss += "<br>angkanya adalah " + i ;
+        i++;
+    }
+    while( i < 5 );
+
+    document.getElementById('wrap').innerHTML = textss;
