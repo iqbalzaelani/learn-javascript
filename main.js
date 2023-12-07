@@ -1,4 +1,4 @@
-//Engga dipake
+//Engga dipake ygy
 
 document.getElementById("wrap").innerHTML = iqbal;
 
@@ -46,3 +46,21 @@ let nama = "Mohamadbalbal";
     printText("Mohamad Iqbal Zaelani"," 123"," 321");
 
     printText();
+
+    let orangsawah = ["burung","traktor","kerbau"];
+    let orangsawah2 = ["sapi","petani","kadal"];
+    let orangsawah3 = ["ular", "snake","oray"];
+    let semuasawah = orangsawah.concat(orangsawah2, orangsawah3);
+    document.getElementById("wrap").innerHTML = semuasawah.length;
+    document.getElementById("wrap").innerHTML = semuasawah.sort();
+    document.getElementById("wrap").innerHTML = semuasawah.reverse();
+    document.getElementById("wrap").innerHTML = semuasawah.join("|");
+
+    let orangsawah4 = ["burung","traktor","kerbau"];
+    orangsawah4.slice(2, 0, "bal", "bol");
+    orangsawah.splice(2, 0);
+    orangsawah4.shift();
+    orangsawah4.unshift("bay");
+    orangsawah4.pop();
+    orangsawah4.push("boy");
+    document.getElementById("wrap").innerHTML = orangsawah4;
