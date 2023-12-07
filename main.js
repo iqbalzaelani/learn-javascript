@@ -64,3 +64,29 @@ let nama = "Mohamadbalbal";
     orangsawah4.pop();
     orangsawah4.push("boy");
     document.getElementById("wrap").innerHTML = orangsawah4;
+
+    let x = false;
+    let y = true;
+    document.getElementById("wrap").innerHTML = y;
+
+    let tabungan = 1000;
+    let barang = 10000;
+    if( tabungan == barang){
+        document.getElementById("wrap").innerHTML = "Tabungan cukup";
+    }else{
+        alert("Tabungan tidak cukup");
+    }
+
+    let buruh = 5000;
+    let manager = 7000;
+    let harga = 7000;
+    if(buruh == harga || manager == harga){
+        alert("cukup bro");
+    }else{
+        alert("tidak cukup ah");
+    }
+    if(buruh == harga && manager == harga){
+        alert("cukup bro");
+    }else{
+        alert("tidak cukup bro");
+    }

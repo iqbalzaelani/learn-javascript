@@ -18,10 +18,10 @@ Scope variabel✔️
 Mengenal array✔️
 Metode Array✔️
 Metode Array Bagian 2✔️
-Tipe data boolean
-If dan else
-Operator logika
-Dua syarat atau lebih
+Tipe data boolean✔️
+If dan else✔️
+Operator logika✔️
+Dua syarat atau lebih✔️
 True dan false
 Else if pada javascript
 Syarat bercabang
