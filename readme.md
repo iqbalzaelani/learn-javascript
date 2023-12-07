@@ -22,10 +22,10 @@ Tipe data boolean✔️
 If dan else✔️
 Operator logika✔️
 Dua syarat atau lebih✔️
-True dan false
-Else if pada javascript
-Syarat bercabang
-Switch case
+True dan false✔️
+Else if pada javascript✔️
+Syarat bercabang✔️
+Switch case✔️
 For loop untuk pengulangan
 While loop
 Do while pasangan while loop

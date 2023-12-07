@@ -90,3 +90,45 @@ let nama = "Mohamadbalbal";
     }else{
         alert("tidak cukup bro");
     }
+
+    var gama   = 2;
+    var andika = 1000;
+    var iqbalz  = 5000;
+    var laptop = 2000;
+    if(gama == laptop){
+        alert("gama miskin");
+    }
+    else if(andika == laptop){
+        alert("Andika lebih mending daripada gama");
+    }
+    else if(iqbazl > laptop){
+        alert("sepuh iqbal mending donasi buat gama");
+    }
+    else{
+        alert("semua orang engga bisa beli");
+    }
+
+    var moiqbal = 5000;
+    var naspad  = 2000;
+    if(moiqbal > naspad){
+        if(moiqbal > naspad*2 ){
+            alert("Iqbal bisa beli 2 naspad");
+        }else{
+            alert("iqbal bisa beli 1 naspad");
+        }
+    }else{
+    }
+
+    var name = "Jamal";
+    switch(name){
+        case "Jamal":
+            alert("Namanya adalah jamal");
+            break;
+        case "Novan":
+            alert("Namanya adalah novan");
+            break;
+        case "Gani":
+            alert("Namanya adalah gani");
+    default:
+        alert("Tidak ada nama Jamal");
+    }
