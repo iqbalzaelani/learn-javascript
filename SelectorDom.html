@@ -3,65 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn DOM Javascript -  Selector</title>
+    <title>Selector DOM Javascript</title>
 </head>
 <style>
-    #test{
+    #iniid{
         color: black;
         background-color: red;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .iniclass{
+        color: red;
+    }
+    p{
+        color: #0000ff;
+    }
+    ul,li{
+        color: red;
     }
 </style>
 <body>
-    <h1>Learn Javascript DOM</h1>
+    <h1>Belajar DOM</h1>
     <img src="image/astr.png" width="300">
-    <div id="test"></div>
+    <div id="iniid"></div>
 
-    <div class="boxes"></div>
-    <div class="boxes"></div>
-    <div class="boxes"></div>
+    <div class="iniclass"></div>
+    <div class="iniclass"></div>
+    <div class="iniclass"></div>
     
     <ul>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Javascript</li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
 
-    <p>Iqbal</p>
+    <p></p>
 
 <script>
-    //selector
     //Memanggil Id
-    document.getElementById("test").innerHTML = "Memanggil Id";
+    document.getElementById("iniid").innerHTML = "Selector DOM Javascript";
 
-    //Memanggil class cara kesatu
-    // document.getElementsByClassName("boxes")[0].innerHTML = "Kesatu";
-    // document.getElementsByClassName("boxes")[1].innerHTML = "Kedua";
-    // document.getElementsByClassName("boxes")[2].innerHTML = "Ketiga";
+    //Memanggil class dengan cara ke 1
+    // document.getElementsByClassName("iniclass")[0].innerHTML = "Kelas Html";
+    // document.getElementsByClassName("iniclass")[1].innerHTML = "Kelas Css";
+    // document.getElementsByClassName("iniclass")[2].innerHTML = "Kelas Javascript";
+    //Memanggil class dengan cara ke 2
+    let iniclass = document.getElementsByClassName("iniclass");
+    iniclass[0].innerHTML = "Kelas Html";
+    iniclass[1].innerHTML = "Kelas Css";
+    iniclass[2].innerHTML = "Kelas Javascript";
 
-    //Memanggil class cara kedua
-    let boxes = document.getElementsByClassName("boxes");
-    boxes[0].innerHTML = "Pertamax";
-    boxes[1].innerHTML = "Keduax";
-    boxes[2].innerHTML = "Ketigax";
-
-    //Memanggil tag atau memanggil nama tag
-    //caranya sama seperti memanggil class disini saya memanggil tag li
-    // document.getElementsByTagName("li")[0].innerHTML = "JAVASCRIPT";
-    // document.getElementsByTagName("li")[1].innerHTML = "CSS";
-    // document.getElementsByTagName("li")[2].innerHTML = "HTML";
-
-    //Memanggil tag atau memanggil nama tag
-    //caranya sama seperti memanggil class disini saya memanggil tag li
+    //memanggil tag dengan cara ke 1
+    // document.getElementsByTagName("li")[0].innerHTML = "Html";
+    // document.getElementsByTagName("li")[1].innerHTML = "Css";
+    // document.getElementsByTagName("li")[2].innerHTML = "Javascript";
+    //memanggil tag dengan cara ke 2
     let list = document.getElementsByTagName("li");
-    list[0].innerHTML = "HTML";
-    list[1].innerHTML = "CSS";
-    list[2].innerHTML = "JAVASCRIPT";
+    list[0].innerHTML = "Html";
+    list[1].innerHTML = "Css";
+    list[2].innerHTML = "Javascript";
 
-    //jadi jangan lupa sertakan "[]" ketika memanggil tag atau class agar dia tidak bingung
+    //memanggil tag tag lain
     document.getElementsByTagName("p")[0].innerHTML = "Mohamad Iqbal Zaelani";
-
 </script>
 </body>
 </html>

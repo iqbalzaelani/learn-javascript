@@ -9,10 +9,33 @@
 
 </style>
 <body>
-    <div class=""></div>
+    <h1>Belajar DOM</h1>
+    <img src="image/astr.png" width="300">
+
+    <div id="IDsatu">
+        <div id="IDdua">Ini Paragraf 1</div>
+    </div>
 
 <script>
-    
+    //----------------------------EDIT HTML---------------------//
+    //Menambahkan Elemen
+    let Iniid = document.getElementById("IDsatu");
+    let elemen = document.createElement("h2");
+    let text = document.createTextNode("Belajar DOM Javascript");
+    //Menggabungkan elemen yang sudah dibuat
+    elemen.appendChild(text); //memasukan elemen dan text mana yang mau di munculkan
+    Iniid.appendChild(elemen); //baris kedua ini untuk mengambil elemen dan memasukan ke id
+
+    //Menghapus Elemen
+    //Iniid.removeChild(elemen); 
+    //disini masukan id nya lalu masukan elemen yang mau di hapus
+
+    //Edit Elemen Html disini saya edit elemen id paragraf
+    let elemenkedua = document.createElement("h3");
+    let textkedua = document.createTextNode("Belajar Sekarang");
+    elemenkedua.appendChild(textkedua);
+    let IDdua = document.getElementById ("IDdua");
+    Iniid.replaceChild(elemenkedua, IDdua);
 </script>
 </body>
 </html>
