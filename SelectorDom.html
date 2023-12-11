@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn DOM Javascript -  Selector</title>
+</head>
+<style>
+    #test{
+        color: black;
+        background-color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+</style>
+<body>
+    <h1>Learn Javascript DOM</h1>
+    <img src="image/astr.png" width="300">
+    <div id="test"></div>
+
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+    </ul>
+
+    <p>Iqbal</p>
+
+<script>
+    //selector
+    //Memanggil Id
+    document.getElementById("test").innerHTML = "Memanggil Id";
+
+    //Memanggil class cara kesatu
+    // document.getElementsByClassName("boxes")[0].innerHTML = "Kesatu";
+    // document.getElementsByClassName("boxes")[1].innerHTML = "Kedua";
+    // document.getElementsByClassName("boxes")[2].innerHTML = "Ketiga";
+
+    //Memanggil class cara kedua
+    let boxes = document.getElementsByClassName("boxes");
+    boxes[0].innerHTML = "Pertamax";
+    boxes[1].innerHTML = "Keduax";
+    boxes[2].innerHTML = "Ketigax";
+
+    //Memanggil tag atau memanggil nama tag
+    //caranya sama seperti memanggil class disini saya memanggil tag li
+    // document.getElementsByTagName("li")[0].innerHTML = "JAVASCRIPT";
+    // document.getElementsByTagName("li")[1].innerHTML = "CSS";
+    // document.getElementsByTagName("li")[2].innerHTML = "HTML";
+
+    //Memanggil tag atau memanggil nama tag
+    //caranya sama seperti memanggil class disini saya memanggil tag li
+    let list = document.getElementsByTagName("li");
+    list[0].innerHTML = "HTML";
+    list[1].innerHTML = "CSS";
+    list[2].innerHTML = "JAVASCRIPT";
+
+    //jadi jangan lupa sertakan "[]" ketika memanggil tag atau class agar dia tidak bingung
+    document.getElementsByTagName("p")[0].innerHTML = "Mohamad Iqbal Zaelani";
+
+</script>
+</body>
+</html>
