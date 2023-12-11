@@ -1,4 +1,4 @@
-Belajar Javascript pemula
+<!---Belajar Javascript pemula-->
 intro belajar javascript✔️
 Menghubungkan file javascript✔️
 Membuat variabel✔️
@@ -29,3 +29,13 @@ Switch case✔️
 For loop untuk pengulangan✔️
 While loop✔️
 Do while pasangan while loop✔️
+
+<!---Belajar DOM Javascript--->
+Intro DOM Javascript
+Selektor DOM
+Menambahkan, Menghapus dan edit elemen html
+Attribute pada DOM Javascript
+CSS pada DOM Javascript
+Belajar event
+Implementasi latihan event
+Selektor pada DOM Javascript

@@ -161,3 +161,5 @@ let nama = "Mohamadbalbal";
     while( i < 5 );
 
     document.getElementById('wrap').innerHTML = textss;
+
+    //Learn DOM Javascript
