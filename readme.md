@@ -34,8 +34,8 @@ Belajar DOM Javascript
 Intro DOM Javascript✔️
 Selektor DOM✔️
 Menambahkan, Menghapus dan edit elemen html✔️
-Attribute pada DOM Javascript
-CSS pada DOM Javascript
+Attribute pada DOM Javascript✔️
+CSS pada DOM Javascript✔️
 Belajar event
 Implementasi latihan event
 Selektor pada DOM Javascript

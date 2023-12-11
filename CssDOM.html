@@ -9,21 +9,28 @@
     .merah{
         background-color: red;
     }
+    .black{
+        border: 4px solid black;
+    }
 </style>
 <body>
     <h1>Learn DOM Javascript</h1>
-    <img src="image/astr.png" width="300" id="gambar">
+    <img src="image/astr.png" width="300" id="gambar" class="black">
 
     <input type="text" value="nama" id="input">
 
 <script>
     var img = document.getElementById('gambar');
-    img.width = 200;
+    img.width = 350;
 
-    img.setAttribute('class', 'merah');
+    //img.setAttribute('class', 'merah');//
+    img.className += ' merah'; //menyatukan nama class lama dengan yang baru menggunakan +=
 
     var input = document.getElementById('input');
     input.value = "Nama Lengkap";
+
+    input.style.border = '3px solid blue';
+    input.style.backgroundColor = 'yellow';
 </script>
 </body>
 </html>
