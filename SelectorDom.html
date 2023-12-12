@@ -12,6 +12,12 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 30px;
     }
+    #iniidkedua{
+        color: red;
+        background-color: bisque;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+    }
     .iniclass{
         color: red;
     }
@@ -26,6 +32,7 @@
     <h1>Belajar DOM</h1>
     <img src="image/astr.png" width="300">
     <div id="iniid"></div>
+    <div id="iniidkedua"></div>
 
     <div class="iniclass"></div>
     <div class="iniclass"></div>
@@ -40,15 +47,20 @@
     <p></p>
 
 <script>
+    //Perbedaan pemanggilan id, kelas, dan tag yaitu jika memanggil id 
+    //kita harus memasukan juga index ke berapa si kelas maupun id tersebut
+
     //Memanggil Id
     document.getElementById("iniid").innerHTML = "Selector DOM Javascript";
+    let isiidkedua = "Ini Selector DOM Javascript";
+    document.getElementById("iniidkedua").innerHTML = isiidkedua;
 
     //Memanggil class dengan cara ke 1
     // document.getElementsByClassName("iniclass")[0].innerHTML = "Kelas Html";
     // document.getElementsByClassName("iniclass")[1].innerHTML = "Kelas Css";
     // document.getElementsByClassName("iniclass")[2].innerHTML = "Kelas Javascript";
     //Memanggil class dengan cara ke 2
-    let iniclass = document.getElementsByClassName("iniclass");
+    const iniclass = document.getElementsByClassName("iniclass");
     iniclass[0].innerHTML = "Kelas Html";
     iniclass[1].innerHTML = "Kelas Css";
     iniclass[2].innerHTML = "Kelas Javascript";

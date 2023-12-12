@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Event</title>
+</head>
+<style>
+    .merah{
+        background-color: red;
+    }
+    .black{
+        border: 4px solid black;
+    }
+</style>
+<body onload="alert('sudah selesai!')">
+    <h1>Learn DOM Javascript</h1>
+    <img onclick="berubah()" src="image/astr.png" width="300" id="gambar" class="black">
+    <input type="text" value="nama" id="input">
+
+<script>
+    var img = document.getElementById('gambar');
+    img.width = 350;
+
+    //img.setAttribute('class', 'merah');
+    img.className += ' merah';
+
+    var input = document.getElementById('input');
+    input.value = "Nama Lengkap";
+
+    input.style.border = '3px solid blue';
+    input.style.backgroundColor = 'yellow';
+    
+    //------------------EVENT---------------------//
+    //ini cara pertama event langsung menggunakan onclick pada tag html nya
+    function berubah(){
+        img.style.backgroundColor = 'yellow';
+    }
+
+    //untuk input ini adalah carsa kedua karena kita langsung mendaftarkan fungsi
+    // input.onclick = function(){berubah2()};
+
+    function berubah2(){
+        input.style.backgroundColor = 'blue';
+    }
+
+    input.addEventListener('mouseenter', function(){
+        input.style.backgroundColor = 'blue';
+    });
+    
+    input.addEventListener('mouseleave', function(){
+        input.style.backgroundColor = 'red';
+    });
+
+    // //cara ketiga
+    // input.addEventListener('click', berubah2() );
+    // function berubah2(){
+    // input.style.backgroundColor = 'blue';
+    // }
+</script>
+</body>
+</html>
