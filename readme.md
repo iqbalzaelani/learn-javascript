@@ -37,5 +37,12 @@ Menambahkan, Menghapus dan edit elemen html✔️
 Attribute pada DOM Javascript✔️
 CSS pada DOM Javascript✔️
 Belajar event✔️
-Implementasi latihan event
-Selektor pada DOM Javascript
+Implementasi latihan event✔️
+Selektor Lainnya pada DOM Javascript✔️
+
+Objek pada javascript
+Intro Objek
+Membuat Objek
+Metode pada Objek
+Objek prototype
+Sifat mutable
