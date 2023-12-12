@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn DOM Javascript</title>
+</head>
+<style>
+    #iniidnya{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua;
+        background-color: blue;
+    }
+    .iniclasnya{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        background-color: red;
+    }
+    p{
+        font-size: 15px;
+        color: blue;
+    }
+    ul, li{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <div id="iniidnya"></div>
+
+    <div class="iniclasnya"></div>
+    <div class="iniclasnya"></div>
+    <div class="iniclasnya"></div>
+
+    <p id="contoh"></p>
+    <p></p>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+<script>
+    const idnabos = document.getElementById("iniidnya");
+    iniidnya.style.color = 'red';
+    iniidnya.style.backgroundColor = "#ccc";
+    iniidnya.innerHTML = "Mohamad Iqbal Zaelani";
+    iniidnya.style.fontFamily = "Times";
+
+    const iniclasnya = document.getElementsByClassName("iniclasnya");
+    iniclasnya[0].innerHTML = "Html";
+    iniclasnya[1].innerHTML = "Css";
+    iniclasnya[2].innerHTML = "Javascript";
+
+    const list = document.getElementsByTagName("li");
+    list[0].innerHTML = "HTML";
+    list[0].style.color = "red";
+    list[0].style.backgroundColor = "black";
+    list[0].style.fontFamily = "Times";
+    //list ke 2
+    list[1].innerHTML = "CSS";
+    list[1].style.color = "black";
+    list[1].style.backgroundColor = "red";
+    list[1].style.fontFamily = "Arial";
+    //list ke 3
+    list[2].innerHTML = "JAVASCRIPT";
+    list[2].style.color = "#ccc";
+    list[2].style.backgroundColor = "red";
+    list[2].style.fontFamily = "Times";
+
+    const contoh = document.querySelector('.iniclasnya')
+    contoh.textContent = "Tuh kan ada"
+    console.log("Ini pake getElementsByClassName()");
+    console.log(iniclasnya)
+    console.log("Ini pake querySelector()");
+    console.log(contoh)
+</script>
+</body>
+</html>
